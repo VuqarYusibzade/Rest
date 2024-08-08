@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: event-management-system
+  datasource:
+    password: 5142189
+    url: jdbc:postgresql://localhost:5432/codeacademy
+    username: postgres
+  jpa:
+    hibernate:
+      ddl-auto: create-drop
+    show-sql: true
+    open-in-view: true
